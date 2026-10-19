@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="304" viewBox="0 0 1040 304" role="img" aria-labelledby="title desc">
+  <title id="title">谭泽的工作台</title>
+  <desc id="desc">动态终端介绍：命令逐字出现，身份、介绍与入口依次显示。打开开源 Skill 工具箱。</desc>
+
+  <style>
+    .typing-reveal { animation: type-command 9s steps(8, end) infinite; }
+    .command-cursor { animation: cursor-travel 9s steps(8, end) infinite, cursor-blink .85s steps(1, end) infinite; }
+    .identity { animation: identity-in 9s ease-in-out infinite; }
+    .role { animation: role-in 9s ease-in-out infinite; }
+    .motto { animation: motto-in 9s ease-in-out infinite; }
+    .topics { animation: topics-in 9s ease-in-out infinite; }
+    .launch { animation: launch-in 9s ease-in-out infinite; }
+    @keyframes type-command {
+      0%, 2% { width: 0; }
+      14%, 94% { width: 78px; }
+      99%, 100% { width: 0; }
+    }
+    @keyframes cursor-travel {
+      0%, 2% { transform: translateX(0); }
+      14%, 94% { transform: translateX(78px); }
+      99%, 100% { transform: translateX(0); }
+    }
+    @keyframes cursor-blink { 0%, 48% { opacity: 1; } 49%, 100% { opacity: 0; } }
+    @keyframes identity-in {
+      0%, 14% { opacity: 0; transform: translateY(3px); }
+      20%, 94% { opacity: 1; transform: translateY(0); }
+      99%, 100% { opacity: 0; transform: translateY(-2px); }
+    }
+    @keyframes role-in {
+      0%, 20% { opacity: 0; transform: translateY(3px); }
+      27%, 94% { opacity: 1; transform: translateY(0); }
+      99%, 100% { opacity: 0; transform: translateY(-2px); }
+    }
+    @keyframes motto-in {
+      0%, 27% { opacity: 0; transform: translateY(3px); }
+      35%, 94% { opacity: 1; transform: translateY(0); }
+      99%, 100% { opacity: 0; transform: translateY(-2px); }
+    }
+    @keyframes topics-in {
+      0%, 34% { opacity: 0; }
+      41%, 94% { opacity: 1; }
+      99%, 100% { opacity: 0; }
+    }
+    @keyframes launch-in {
+      0%, 40% { opacity: 0; transform: translateX(-3px); }
+      48%, 94% { opacity: 1; transform: translateX(0); }
+      99%, 100% { opacity: 0; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .typing-reveal { animation: none; width: 78px; }
+      .identity, .role, .motto, .topics, .launch { animation: none; opacity: 1; transform: none; }
+      .command-cursor { animation: none; opacity: 0; }
+    }
+  </style>
+  <defs>
+    <clipPath id="command-mask"><rect class="typing-reveal" x="64" y="65" width="78" height="30"/></clipPath>
+  </defs>
+  <rect x="1" y="1" width="1038" height="302" rx="18" fill="#f8fafb" stroke="#dce3e9" stroke-width="2"/>
+  <path d="M19 1H1021A18 18 0 0 1 1039 19V48H1V19A18 18 0 0 1 19 1Z" fill="#eef2f5"/>
+  <path d="M2 48H1038" stroke="#dce3e9"/>
+  <circle cx="25" cy="25" r="5" fill="#d98582"/>
+  <circle cx="44" cy="25" r="5" fill="#d9bc76"/>
+  <circle cx="63" cy="25" r="5" fill="#82ad96"/>
+  <text x="520" y="30" text-anchor="middle" fill="#7a8896" font-size="12" letter-spacing="1.1" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">tan-ze / workspace</text>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15">
+    <text x="42" y="89" fill="#5e8b7c">~</text>
+    <text clip-path="url(#command-mask)" x="64" y="89" fill="#6c7b89">$ whoami</text>
+    <rect class="command-cursor" x="64" y="76" width="7" height="16" rx="1" fill="#5e8b7c"/>
+  </g>
+  <text class="identity" x="42" y="137" fill="#27343f" font-size="32" font-weight="600" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">谭泽</text>
+  <text class="role" x="126" y="134" fill="#74828e" font-size="17" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Microsoft YaHei', sans-serif">AI 产品实践 · 工具 · 写作</text>
+  <text class="motto" x="42" y="180" fill="#51626f" font-size="17" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Microsoft YaHei', sans-serif">在学习中理解，在实践中验证。</text>
+  <path d="M42 209H998" stroke="#e1e7eb"/>
+  <g class="topics" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" letter-spacing="1.4" fill="#6c7c89">
+    <text x="42" y="251">PRODUCT</text>
+    <text x="180" y="251">TOOLS</text>
+    <text x="294" y="251">WRITING</text>
+  </g>
+  <text class="launch" x="998" y="251" text-anchor="end" fill="#4c7b70" font-size="13" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">explore skills →</text>
+</svg>

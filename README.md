@@ -2,8 +2,8 @@
 
 <a href="https://github.com/evenk5838-coder/tan-ze-skills">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/workspace-dark.svg">
-    <img alt="谭泽的工作台：AI 产品、可复用工具与写作。点击查看开源 Skill 工具箱。" src="assets/workspace-light.svg" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/workspace-dark-animated.svg">
+    <img alt="谭泽的工作台：AI 产品、可复用工具与写作。点击查看开源 Skill 工具箱。" src="assets/workspace-light-animated.svg" width="100%">
   </picture>
 </a>
 

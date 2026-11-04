@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1040" height="304" viewBox="0 0 1040 304" role="img" aria-labelledby="title desc">
   <title id="title">谭泽的工作台</title>
-  <desc id="desc">动态终端介绍：命令逐字出现，身份、介绍与入口依次显示。打开开源 Skill 工具箱。</desc>
+  <desc id="desc">动态终端介绍：命令逐字出现，身份、介绍与入口依次显示。AI 产品、工具与写作。</desc>
 
   <style>
     .typing-reveal { animation: type-command 9s steps(8, end) infinite; }
@@ -76,5 +76,5 @@
     <text x="180" y="251">TOOLS</text>
     <text x="294" y="251">WRITING</text>
   </g>
-  <text class="launch" x="998" y="251" text-anchor="end" fill="#9bc4b7" font-size="13" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">explore skills →</text>
+  <text class="launch" x="998" y="251" text-anchor="end" fill="#9bc4b7" font-size="13" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">learning by building</text>
 </svg>

@@ -1,9 +1,13 @@
 # Hi, I'm 谭泽 👋
 
+<a href="https://zhangzekai-portfolio.evenk5838.chatgpt.site/">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/workspace-dark-animated.svg">
-  <img alt="谭泽的工作台：AI 产品实践、工具与写作。" src="assets/workspace-light-animated.svg" width="100%">
+  <img alt="谭泽的工作台：点击进入个人网站，查看 AI 产品项目与实践。" src="assets/workspace-light-animated.svg" width="100%">
 </picture>
+</a>
+
+[进入我的个人网站 ↗](https://zhangzekai-portfolio.evenk5838.chatgpt.site/)
 
 我是谭泽，关注 AI 产品设计与实践。这里整理我的产品项目、开源工具和文章，记录从问题、方案到实际体验的过程。
 

@@ -20,7 +20,7 @@
     <td width="50%" valign="top">
       <h3>物料间 · AIGC 电商平台</h3>
       <p>把商品与想法逐步做成图片、分镜和视频的 AI 创作工作台。</p>
-      <p><a href="https://github.com/evenk5838-coder/ecommerce-aigc-workbench">开源仓库</a> · <a href="https://evenk5838-coder.github.io/ecommerce-aigc-workbench/">交互演示</a></p>
+      <p><a href="https://github.com/evenk5838-coder/ecommerce-aigc-demo">项目展示</a> · <a href="https://evenk5838-coder.github.io/ecommerce-aigc-demo/">交互演示</a></p>
       <p><sub>在线演示使用固定样例，不调用模型。</sub></p>
     </td>
     <td width="50%" valign="top">

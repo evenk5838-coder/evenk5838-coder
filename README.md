@@ -26,8 +26,8 @@
     <td width="50%" valign="top">
       <h3>Vegan Agent · 蔬食助手</h3>
       <p>通过对话识别配料、寻找素食餐厅、搜索菜谱和管理冰箱食材。</p>
-      <p><a href="https://github.com/evenk5838-coder/vegan-agent-public">开源仓库</a></p>
-      <p><sub>本地内测中。</sub></p>
+      <p><a href="https://github.com/evenk5838-coder/vegan-agent-demo">项目展示</a> · <a href="https://evenk5838-coder.github.io/vegan-agent-demo/">交互演示</a></p>
+      <p><sub>产品内测中，在线演示使用示例数据。</sub></p>
     </td>
   </tr>
   <tr>
